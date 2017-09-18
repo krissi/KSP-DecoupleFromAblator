@@ -1,13 +1,13 @@
 {
     "spec_version"   : 1,
-    "identifier"     : "DecoupleFromAblator",
     "$kref"          : "#/ckan/github/krissi/KSP-DecoupleFromAblator",
-    "ksp_version"    : "1.3.99",
-    "license"        : "LGPL-2.1",
-    "name"           : "Decouple from Heatshield for Ablator",
-    "description"    : "Adds a button for heatshields (all parts using ablator) to decouple whatever is connected below them, removing the need for an extra decoupler under the heatshield",
+    "identifier"     : "DecoupleFromAblator",
+    "ksp_version"    : "1.3",
+    "license"        : "MIT",
     "author"         : "ducktype",
-    "version"        : "1.0",
+    "x_netkan_github" : {
+        "use_source_archive" : true
+    },
 
     "depends" : [
         { "name" : "ModuleManager" }
@@ -19,7 +19,7 @@
 
     "install": [
         {
-            "file"       : "decouple from ablator.cfg",
+            "file"       : "DecoupleFromAblator.cfg",
             "install_to" : "GameData"
         }
     ]
